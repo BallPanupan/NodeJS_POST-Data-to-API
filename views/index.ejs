@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>insert</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"> -->
+
+</head>
+    <style>
+    p {
+        font-family: "Times New Roman", Times, serif;
+    }
+    input[type=text] {
+        width: 25%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    input[type=password] {
+        width: 25%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 3px solid #ccc;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+
+    input[type=text]:focus {
+        border: 3px solid #555;
+    }
+
+    input[type=password]:focus {
+        border: 3px solid #555;
+    }
+
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
+    </style>
+<body>
+      <!-- <form method="post" action="login">
+      <table  border ="1">
+      <tr>
+        <th style="width:30%"></th>
+        <th>Login</th>
+      </tr>
+      <tr>
+        <td>username</td>
+        <td><input type="text" class="form-control" name="username" placeholder="username"></td>
+      </tr>
+      <tr>
+        <td>password</td>
+        <td><input type="password" class="form-control" name="password" placeholder="password"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button type="submit" class="btn btn-primary">Login</button></td>
+      </tr>
+    </table>
+    </form> -->
+
+    <center>
+          <a class="btn btn-outline-primary" href="./insert">Register</a>
+          <a class="btn btn-outline-primary" href="/login">login</a>
+        <form method="post" action="login">
+          <p><input type="text" class="form-control" name="username" placeholder="username"></p>
+          <p><input type="password" class="form-control" name="password" placeholder="password"></p>
+          <button type="submit" class="button">Login</button>
+        </form>
+    <center>
+
+</body>
+</html>
